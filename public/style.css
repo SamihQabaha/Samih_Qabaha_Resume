@@ -9,10 +9,16 @@ body{
 .titleh{
     /*background: #1E0342;*/
     background-image: url(../assetes/images/samih2.jpg);
-    background-repeat: repeat-x;
-    color: white;
     width: 100%;
+    height: 200px;
+    background-repeat: repeat-x;
+    
     text-align: center;
+    color: white;
+    border-image: linear-gradient(#365255, #3bafb3) 30;
+    border-width: 5px;
+    border-style: solid;
+    
 }
 
 .subtitle{
@@ -22,10 +28,10 @@ body{
 
 
 #pimg{
-    border-image: linear-gradient(#9AC8CD, #3bafb3) 30;
+    border-image: linear-gradient(#365255, #3bafb3) 30;
     border-width: 5px;
     border-style: solid;
     margin-left: 40%;
     margin-right: 40%;
-    width: 20%;
+    width: 100px;
 }
